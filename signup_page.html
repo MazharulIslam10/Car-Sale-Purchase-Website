@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup Page</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<style type="text/css">
+			body{
+				background-image: url(https://wallpaperaccess.com/full/813245.jpg);
+				background-size: cover;
+				background-position: center center;
+				background-attachment: fixed;
+			}
+
+		#ui{
+			background-color: #333;
+			padding: 30px;
+			margin-top: 50px;
+			border-radius: 10px;
+			opacity: 0.9;
+		}
+
+		#ui label,h1{
+			color: #fff;
+		}
+	</style>
+  </head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3"></div>
+			<div class="col-lg-6">
+				<div id="ui">
+					<h1 class="text-center">REGISTRATION FORM</h1>
+					<br>
+					<form class="form-group">
+						<div class="row text-center">
+							<div class="col-lg-6">
+								<label>First Name</label>
+								<input type="text" name="first_name" class="form-control" placeholder="Enter your First Name"> 
+							</div>
+							
+							<div class="col-lg-6">
+								<label>Last Name</label>
+								<input type="text" name="last_name " class="form-control" placeholder="Enter your Last Name">
+							</div> 
+						
+						</div>
+						<br>
+						<div class="text-center">
+						<label>Email</label>
+						<input type="email" name="email" class="form-control" placeholder="Enter your Email Address">
+						</div>
+						<br>
+						<div class="row">
+							
+							<div class="col-lg-6 text-center">
+								<label>Password</label>
+								<input type="password" name="password" class="form-control" placeholder="Enter New Password"> 
+							</div>  
+							
+							<div class="col-lg-6 text-center">
+								<label>Re-type Password</label>
+								<input type="password" name="confirm_password" class="form-control" placeholder="Re-type the Password">
+							</div> 
+						
+						</div>
+						<br>
+						<div class="text-center">
+						<label>Gender</label>
+						<br>
+ 						<select class="form-control">
+ 							<option>Choose Gender</option>
+ 							<option>Male</option>
+ 							<option>Female</option>
+ 						</select>
+ 						</div>
+ 						<br>
+ 						<input type="checkbox" id="newsletter" name="newsletter" value="check">
+						<label for="newsletter">I want to receive newsletters and special offers</label>
+						<br>
+ 						<input type="submit" name="submit" value="Submit" class="btn btn-primary btn-block">
+ 						<br>
+						<div class="text-center">
+								<label>Already have an account?</label>
+						<a href="login_page.html" style="color:white;"><u>Sign In</u></a>
+					</form>
+						</div>
+
+				</div>
+			</div>
+			<div class="col-lg-3">
+			</div>
+				
+		</div>
+			
+		</div>
+
+	</div>
+
+</body>
+</html>
